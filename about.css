@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', sans-serif;
+}
+
+body {
+    background: url(791bb390f92c28595ed5ce264767bbca.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background: #fff;
+    color: #16213e;
+}
+.instgram {
+    position: absolute;
+    top: 190px;
+    left:0px;    
+}
+.instgram img {
+    position: absolute;
+    width: 100px;
+    top: 150px;
+    left: 150px;
+}
+.instgram a{
+    position: relative;
+    top: 255px;
+    left: 120px;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.faceboock {
+    position: absolute;
+    top: 190px;
+    left:400px;
+}
+.faceboock img {
+    position: absolute;
+    width: 100px;
+    top: 150px;
+    left: 150px;
+}
+.faceboock a{
+    position: relative;
+    top: 255px;
+    left: 125px;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.Whatsapp {
+    position: absolute;
+    top: 190px;
+    left:800px;
+}
+.Whatsapp img {
+    position: absolute;
+    width: 100px;
+    top: 150px;
+    left: 140px;
+    width: 120px;
+}
+.Whatsapp a{
+    position: relative;
+    top: 265px;
+    left: 120px;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ykx {
+    position: absolute;
+    top: 190px;
+    left:1200px;
+}
+.ykx img {
+    position: absolute;
+    width: 100px;
+    top: 150px;
+    left: 140px;
+    width: 120px;
+}
+.ykx a{
+    position: relative;
+    top: 265px;
+    left: 120px;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

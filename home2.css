@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', sans-serif;
+}
+
+body {
+    background: url(791bb390f92c28595ed5ce264767bbca.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background: #fff;
+    color: #16213e;
+}
+.search input {
+    border-radius: 50px;
+    border :none ;
+    outline: none;
+    height: 30px;
+    width: 500px;
+    padding: 0 20px;
+
+}
+.search button{
+    position: absolute ;
+    height: 30px;
+    left: 455px;
+    background: none;
+    border-radius: 50px;
+}
+.search {
+    position: absolute;
+    top: 100px;    
+}
+.pages .icon {
+    position: absolute;
+    height: 20px;
+    top: 150px;
+    left: 1000px;
+}
+.pages .icon1 {
+    position: absolute;
+    height: 20px;
+    top: 150px;
+    left: 550px;
+}
+.pages h1 {
+    position: absolute;
+    top: 150px;
+    left: 725px;
+    color:rgb(98, 2, 107);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.last-of-us {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.last-of-us img {
+    position: absolute;
+    width: 75px;
+    top: 200px;
+    left: 60px;
+    border-radius: 15px;
+}
+.last-of-us h1 {
+    position: relative;
+    top: 340px;
+    left: 30px;
+    color: rgb(9, 180, 9);
+}
+.last-of-us p {
+    position: relative;
+    top: 335px;
+    right: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.last-of-us a {
+    position: absolute;
+    top : 420px;
+    left: 60px;
+    color: greenyellow;
+}
+.witcher {
+     position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.witcher img {
+    position: absolute;
+    width: 250px;
+    top: 200px;
+    left: 620px;
+    border-radius: 15px;
+}
+.witcher h1 {
+    position: relative;
+    top: 305px;
+    left: 675px;
+    color: rgb(9, 180, 9);
+}
+.witcher p {
+    position: relative;
+    top: 305px;
+    left: 620px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.witcher a {
+    position: absolute;
+    top : 410px;
+    left: 700px;
+    color: greenyellow;
+}
+.farcry {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+.farcry img {
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    left: 1140px;
+    border-radius: 15px;
+}
+.farcry h1 {
+    position: relative;
+    top: 315px;
+    left: 1180px;
+    color: rgb(9, 180, 9);
+}
+.farcry p {
+    position: relative;
+    top: 310px;
+    left: 1100px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.farcry a {
+    position: absolute;
+    top : 420px;
+    left: 1200px;
+    color: greenyellow;
+}
+.farcry hr {
+    width: 1488px;
+    position: absolute;
+    color: black;
+    height: 5px;
+    top: 465px;
+    left: -50px;
+}    
+.minecraft {
+    position: absolute;
+    top: 555px;
+    left: 70px;
+}
+.minecraft h1 {
+    position: absolute;
+    top : 60px;
+    left: 100px;
+ color: rgb(9, 180, 9);
+}
+.minecraft img {
+    position: absolute;
+    width: 250px;
+    top: 10px;
+    left: 60px;
+    border-radius: 10px;
+}
+.minecraft p {
+    position: relative;
+    top: 95px;
+    left: 50px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+}
+.minecraft a{
+    position: absolute;
+    top : 165px;
+    left: 130px;
+    color: greenyellow;
+}
+.god_of_war {
+    position: absolute;
+    top: 530px;
+    left: 650px;
+}
+.god_of_war img {
+    position: absolute;
+    width: 250px;
+    top: 10px;
+    left: 60px;
+    border-radius: 10px;    
+}
+.god_of_war h1 {
+    position: relative;
+    top : 70px;
+    left: 100px;
+ color: rgb(9, 180, 9);
+}
+.god_of_war p {
+    position: relative;
+    top: 65px;
+    left: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;    
+}
+.god_of_war a {
+    position: absolute;
+    top : 170px;
+    left: 150px;
+    color: greenyellow;    
+}
+.forza {
+    position: absolute;
+    top: 530px;
+    left: 1200px;
+}    
+.forza img {
+    position: absolute;
+    width: 120px;
+    top: 0px;
+    left: 60px;
+    border-radius: 10px;    
+}    
+.forza h1 {
+    position: relative;
+    top : 95px;
+    left: 35px;
+    color: rgb(9, 180, 9); 
+}
+.forza p {
+    position: relative;
+    top: 90px;
+    left: 25px;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;     
+}
+.forza a {
+    position: absolute;
+    top : 195px;
+    left: 90px;
+    color: greenyellow;    
+}

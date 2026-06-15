@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', sans-serif;
+}
+
+body {
+    background: url(791bb390f92c28595ed5ce264767bbca.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover {
+    background: #fff;
+    color: #16213e;
+}
+.search input {
+    border-radius: 50px;
+    border :none ;
+    outline: none;
+    height: 30px;
+    width: 500px;
+    padding: 0 20px;
+
+}
+.search button{
+    position: absolute ;
+    height: 30px;
+    left: 455px;
+    background: none;
+    border-radius: 50px;
+}
+.search {
+    position: absolute;
+    top: 100px;    
+}
+.pages .icon {
+    position: absolute;
+    height: 20px;
+    top: 150px;
+    left: 1000px;
+}
+.pages .icon1 {
+    position: absolute;
+    height: 20px;
+    top: 150px;
+    left: 550px;
+}
+.pages h1 {
+    position: absolute;
+    top: 150px;
+    left: 725px;
+    color:rgb(98, 2, 107);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Cyberpunk {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.Cyberpunk img {
+    position: absolute;
+    width: 300px;
+    top: 70px;
+    border-radius: 15px;
+}
+.Cyberpunk h1 {
+    position: relative;
+    top: 145px;
+    color: green;
+    left: 50px;
+}
+.Cyberpunk p {
+    position: relative;
+    top: 145px;
+    color: #fff;
+    font-size: 20px;
+    left: 40px;
+}
+.Cyberpunk a {
+    position: absolute;
+    top : 205px;
+    left: 100px;
+    color: greenyellow;  
+}
+.Hogwarts-Legacy {
+    position: absolute;
+    top: 190px;
+    left: 600px;
+}
+.Hogwarts-Legacy img {
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    left: 50px;
+}
+.Hogwarts-Legacy h1 {
+    position: relative;
+    top: 145px;
+    left: 60px;
+    color: green;
+}
+.Hogwarts-Legacy p {
+    position: relative;
+    top: 145px;
+    left: 80px;
+    font-size: 20px;
+    color: #fff;
+}
+.Hogwarts-Legacy a {
+    position: absolute;
+    top: 205px;
+    left: 170px;
+    color: greenyellow;
+}
